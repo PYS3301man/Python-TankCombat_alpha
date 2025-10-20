@@ -105,7 +105,7 @@ KoW_UT_L = [M41A1_WalkerBulldog_s, M46_Patton_s         , M4A3E8_76_W_HVSS     ,
 #순서: 메인메뉴 - 국가 선택 - 시간대 선택 - 전차선택
 def Main_Menu():
     print("==" * 10)
-    print("TankCombat alpha-test ver.0 (CGPT helped TUI)")
+    print("TankCombat alpha-test ver.1 (CGPT helped TUI)")
     print("1 을 입력하여 플레이")
     start = input("번호를 입력하세요: ")
     if start == '1':
@@ -222,3 +222,4 @@ while True:
     except:
         current_screen = Main_Menu()
         continue
+
