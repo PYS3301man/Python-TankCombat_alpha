@@ -35,6 +35,7 @@ Modern_War_USAm_Tank_List =   ['M3_Bradley'          , 'M1A2_SEP_v2'        , 'M
 
 #일부 CGPT 사용됨
 class USA_Tanks:
+    #                  전차명, 분류, 체력, 속도, 주포정보, 부포정보, 폭압저항력
     def __init__(self, Name, Class, Hp, Speed, MG_I_List, SG_I_List, RsiBm):
         self.Name = Name
         self.Class = Class
@@ -51,7 +52,7 @@ class USA_Tanks:
 #전차 객체 생성
 
 #|미국전차
-
+#TCatv_ShellList.py 파일을 import하여 이 코드를 대신함
 #||포 정보              = [재장전시간, 관통력, 피해량]
 #|||WW2_Early_USAm_Tank_List
 #weC37mmM6               = [ 3.7,  84,  35]                   #M3A1_Stuart
@@ -384,3 +385,4 @@ while True:
 #    except:
 #        current_screen = Main_Menu()
 #        continue
+
